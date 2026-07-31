@@ -376,7 +376,7 @@
     let html =
       '<option value="__custom__"' +
       (selected === "__custom__" ? " selected" : "") +
-      ">Teks custom (huruf/simbol)</option>";
+      ">Costume Text(alphabet/symbol)</option>";
     keys.forEach(function (k) {
       html +=
         '<option value="' +
