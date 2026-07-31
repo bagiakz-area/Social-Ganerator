@@ -175,8 +175,8 @@
   background: rgba(233, 165, 61, 0.12);
 }
 .scb-btn.danger {
-  border-color: var(--status);
-  color: var(--status);
+  border-color: rgb(202, 57, 57);
+  color: rgb(202, 57, 57);
 }
 .scb-btn.danger:hover {
   background: rgba(168, 81, 71, 0.15);
