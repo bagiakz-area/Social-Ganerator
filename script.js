@@ -540,7 +540,7 @@
         );
       })
       .join("\n");
-    snippetOutput.value = "<p>\n" + items + "\n</p>";
+    snippetOutput.value = '<p align="center">\n' + items + "\n</p>";
   }
 
   root
