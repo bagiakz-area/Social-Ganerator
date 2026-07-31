@@ -56,6 +56,33 @@
     },
   };
 
+  const PRESETS = {
+    linkedin: { title: "LINKEDIN", url: "https://linkedin.com/in/username" },
+    telegram: { title: "TELEGRAM", url: "https://t.me/username" },
+    x: { title: "X / TWITTER", url: "https://x.com/username" },
+    instagram: { title: "INSTAGRAM", url: "https://instagram.com/username" },
+    hackster: { title: "HACKSTER", url: "https://hackster.io/username" },
+    threads: { title: "THREADS", url: "https://threads.net/@username" },
+    github: { title: "GITHUB", url: "https://github.com/username" },
+    youtube: { title: "YOUTUBE", url: "https://youtube.com/@username" },
+    discord: { title: "DISCORD", url: "https://discord.gg/invite" },
+    tiktok: { title: "TIKTOK", url: "https://tiktok.com/@username" },
+    whatsapp: { title: "WHATSAPP", url: "https://wa.me/62xxxxxxxxxx" },
+    gmail: { title: "GMAIL", url: "mailto:username@gmail.com" },
+    facebook: { title: "FACEBOOK", url: "https://facebook.com/username" },
+    twitch: { title: "TWITCH", url: "https://twitch.tv/username" },
+    reddit: { title: "REDDIT", url: "https://reddit.com/user/username" },
+    medium: { title: "MEDIUM", url: "https://medium.com/@username" },
+    stackoverflow: {
+      title: "STACK OVERFLOW",
+      url: "https://stackoverflow.com/users/username",
+    },
+    spotify: {
+      title: "SPOTIFY",
+      url: "https://open.spotify.com/user/username",
+    },
+  };
+
   const theme = {
     border: "#00E5FF",
     gold: "#E0FFFF",
@@ -432,6 +459,13 @@
       } else {
         card.iconType = "brand";
         card.iconKey = e.target.value;
+        const preset = PRESETS[card.iconKey];
+        if (preset) {
+          card.title = preset.title;
+          card.url = preset.url;
+          el.querySelector(".f-title").value = preset.title;
+          el.querySelector(".f-url").value = preset.url;
+        }
       }
       el.querySelector(".f-glyph-wrap").style.display =
         card.iconType === "custom" ? "block" : "none";
