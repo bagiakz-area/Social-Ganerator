@@ -2,7 +2,20 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <title>Costum your SocialCard — Card Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Card Generator for GitHub README — Connect Social Card Builder</title>
+    <meta name="description" content="Free social card generator for your GitHub README. Build fully customizable SVG social media profile cards (LinkedIn, Instagram, X, Telegram, and more) with live preview, then export straight to your repo." />
+    <meta name="keywords" content="social card generator, github readme, github profile readme, svg card generator, readme social icons, profile card builder" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Social Card Generator for GitHub README" />
+    <meta property="og:description" content="Build fully customizable SVG social media profile cards for your GitHub README, with live preview and one-click export." />
+    <meta property="og:image" content="assets/img/GIAR.png" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Social Card Generator for GitHub README" />
+    <meta name="twitter:description" content="Build fully customizable SVG social media profile cards for your GitHub README, with live preview and one-click export." />
+
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="assets/img/GIAR.png" />
@@ -17,7 +30,7 @@
       <div class="scb-layout">
         <div class="scb-controls">
           <div class="scb-panel">
-            <h2>Thame Colors</h2>
+            <h2>Theme Colors</h2>
             <div class="scb-row">
               <label>Border / Glow</label><input type="color" id="th-border" />
             </div>
@@ -26,7 +39,7 @@
               ><input type="color" id="th-gold" />
             </div>
             <div class="scb-row">
-              <label>Teks status</label><input type="color" id="th-status" />
+              <label>Status Text</label><input type="color" id="th-status" />
             </div>
             <div class="scb-row">
               <label>Background top</label><input type="color" id="th-bgTop" />
@@ -65,7 +78,7 @@
               <span class="scb-toast" id="toast">Copied!</span>
             </div>
             <textarea id="snippetOutput" readonly></textarea>
-            <p class="scb-hint">NOTE : You must download the socialcard (.svg) file and place it in your repository for the HTML code to function properly</p>
+            <p class="scb-hint">NOTE : You must download the SocialCard (.svg) file and place it in your repository for the HTML code to function properly</p>
           </div>
           <p class="footer">
             <iconify-icon icon="line-md:github"></iconify-icon> : <a href="https://github.com/bagiakz-area">bagiakz-area</a>

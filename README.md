@@ -1,13 +1,13 @@
 <div align="center">
 
-# Social Card Builder
+# Social Card Builder — Social Card Generator for GitHub README
 
-**Design sleek, animated SVG "Connect Social" cards for your GitHub Profile README — no design skills needed.**
+**A free social card generator for your GitHub README — design sleek, animated SVG "Connect Social" cards, no design skills needed.**
 
 ![Made with Vanilla JS](https://img.shields.io/badge/Made%20with-Vanilla%20JS-00E5FF?style=for-the-badge&logo=javascript&logoColor=white)
 ![Output SVG](https://img.shields.io/badge/Output-SVG-3B82F6?style=for-the-badge&logo=svg&logoColor=white)
 
-· [🚀 Try it Live](https://socialcard-generator.vercel.app/) · 
+· [🚀 Try it Live](https://socialcard-generator.vercel.app/) ·
 
 </div>
 
@@ -40,7 +40,7 @@ The tool is meant to be used directly from the live site — just visit, customi
 
 ## 🌐 Live Demo
 
-👉 **[Open the Social Card Generator](https://socialcard-generator.vercel.app/)**
+👉 **[Open the Social Card Builder](https://socialcard-generator.vercel.app/)**
 
 No install, no sign-up — everything runs in your browser.
 
