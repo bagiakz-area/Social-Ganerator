@@ -31,9 +31,12 @@ The tool is meant to be used directly from the live site — just visit, customi
 ## 📸 Preview
 
 
-```
-[ screenshot / demo GIF goes here ]
-```
+<p>
+   <img src="assets/img/instagram.svg" alt="instagram">
+   <img src="assets/img/linkedin.svg" alt="linkedin">
+   <img src="assets/img/tiktok.svg" alt="tiktok">
+   <img src="assets/img/x-twitter.svg" alt="x-twiter">
+</p>
 
 ## 🌐 Live Demo
 
